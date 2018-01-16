@@ -3,9 +3,9 @@ package components.repositories;
 import components.domain.Product;
 
 /**
- * Created by Qing (Chris) Yuan on Jan/16/2018 1:21 AM
+ * Created by Qing (Chris) Yuan on Jan/16/2018 1:35 AM
  */
-public class ProductRepositoryImpl implements ProductRepository {
+public class ProductRepositoryTestStub implements ProductRepository {
 
     @Override
     public Product getProduct(Long id) {
